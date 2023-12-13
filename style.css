@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #44A08D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    gap: 30px;
+    background-color: #44A08D ;
+    border: 15px solid #fff;
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 80px;
+    box-shadow: 0px 5px 5px 1px #c3c3c3;
+}
+
+.caja-1,
+.caja-2,
+.caja-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h3 {
+    padding-bottom: 30px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.paragraphs {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.caja-info {
+    padding-bottom: 20px;
+}
+
+.caja-1 button {
+    margin-top: 10px;
+    font-weight: 600;
+    width: 120px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(226, 43, 156);
+    border: none;
+    cursor: pointer;
+}
+
+.caja-2 button {
+    margin-top: 10px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(92, 190, 255);
+    border: none;
+    cursor: pointer;
+}
+
+
+.caja-3 button {
+    margin-top: 10px;
+    font-weight: 600;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
